@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      # Verwijst naar de service hieronder
+      APP_HOST: server
+      APP_PORT: 3333
+
+  server:
+    image: ghcr.io/larsjarred9/pawbby-reborn:latest
+    restart: on-failure
+    ports:
+      # Tuya local discovery poorten openzetten
+      - "6666:6666/udp"
+      - "6667:6667/udp"
+    environment:
+      - DATABASE_URL=file:/data/pawbby.db
+      - APP_HOST=0.0.0.0
+      - APP_PORT=3333
+    volumes:
+      # ${APP_DATA_DIR} wordt door Umbrel automatisch ingevuld
+      - ${APP_DATA_DIR}/data:/data
