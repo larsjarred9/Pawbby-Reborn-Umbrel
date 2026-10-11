@@ -1,18 +1,32 @@
 manifestVersion: 1
 id: pawbby-reborn
+storage:
+  dataRoot: data
+folderAccess:
+  - id: pawbby-data
+    name: Storage Folder
+    note: Select an external drive or folder to store the Pawbby database and data files.
+    mounts:
+      - service: server
+        targetPath: /data
+        readOnly: false
 category: Smart Home
 name: Pawbby Reborn
 icon: "https://raw.githubusercontent.com/larsjarred9/Pawbby-Reborn-Umbrel/main/pawbby-reborn/icon.jpg"
 version: "1.0.0"
 tagline: Local Tuya dashboard for Pawbby smart litter boxes
-description: Local integration and dashboard for monitoring Pawbby smart litter boxes via Tuya.
+description: >-
+  Local integration and dashboard for monitoring Pawbby smart litter boxes via Tuya.
+releaseNotes: ""
 developer: larsjarred9
-website: "https://github.com/larsjarred9/Pawbby-Reborn-Umbrel"
+website: "https://github.com/larsjarred9/Pawbby-Reborn"
 dependencies: []
-repo: "https://github.com/larsjarred9/Pawbby-Reborn-Umbrel"
-support: "https://github.com/larsjarred9/Pawbby-Reborn-Umbrel/issues"
+repo: "https://github.com/larsjarred9/Pawbby-Reborn"
+support: "https://github.com/larsjarred9/Pawbby-Reborn/issues"
 port: 3333
 gallery: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+submitter: larsjarred9
+submission: "https://github.com/getumbrel/umbrel-apps"
