@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      # Verwijst naar de service hieronder
-      APP_HOST: server
+      # Verwijst naar de service hieronder (<app-id>_<service-name>_1)
+      APP_HOST: pawbby-reborn_server_1
       APP_PORT: 3333
 
   server:
-    image: ghcr.io/larsjarred9/pawbby-reborn:latest
+    image: ghcr.io/larsjarred9/pawbby-reborn:1.0.0
     restart: on-failure
     ports:
       # Tuya local discovery poorten openzetten

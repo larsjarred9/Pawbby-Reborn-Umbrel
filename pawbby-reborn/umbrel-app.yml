@@ -2,6 +2,7 @@ manifestVersion: 1
 id: pawbby-reborn
 category: Smart Home
 name: Pawbby Reborn
+icon: "https://raw.githubusercontent.com/larsjarred9/Pawbby-Reborn-Umbrel/main/pawbby-reborn/icon.jpg"
 version: "1.0.0"
 tagline: Local Tuya dashboard for Pawbby smart litter boxes
 description: Local integration and dashboard for monitoring Pawbby smart litter boxes via Tuya.
