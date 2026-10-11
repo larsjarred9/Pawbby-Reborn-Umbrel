@@ -1,0 +1,17 @@
+manifestVersion: 1
+id: pawbby-reborn
+category: Smart Home
+name: Pawbby Reborn
+version: "1.0.0"
+tagline: Local Tuya dashboard for Pawbby smart litter boxes
+description: Local integration and dashboard for monitoring Pawbby smart litter boxes via Tuya.
+developer: larsjarred9
+website: "https://github.com/larsjarred9/Pawbby-Reborn-Umbrel"
+dependencies: []
+repo: "https://github.com/larsjarred9/Pawbby-Reborn-Umbrel"
+support: "https://github.com/larsjarred9/Pawbby-Reborn-Umbrel/issues"
+port: 3333
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
