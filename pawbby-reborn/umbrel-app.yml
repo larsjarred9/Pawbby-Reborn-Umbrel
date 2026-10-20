@@ -13,11 +13,16 @@ folderAccess:
 category: Smart Home
 name: Pawbby Reborn
 icon: "https://raw.githubusercontent.com/larsjarred9/Pawbby-Reborn-Umbrel/main/pawbby-reborn/icon.jpg"
-version: "1.0.1"
+version: "1.0.2"
 tagline: Local Tuya dashboard for Pawbby smart litter boxes
 description: >-
   Local integration and dashboard for monitoring Pawbby smart litter boxes via Tuya.
 releaseNotes: >-
+  ## What's Changed
+  * 1.0.2 by @larsjarred9 in https://github.com/larsjarred9/Pawbby-Reborn/pull/74
+  
+  
+  **Full Changelog**: https://github.com/larsjarred9/Pawbby-Reborn/compare/v1.0.1...v1.0.2
   ## What's Changed
   * 1.0.1 by @larsjarred9 in https://github.com/larsjarred9/Pawbby-Reborn/pull/67
   
