@@ -8,7 +8,7 @@ services:
       APP_PORT: 3333
 
   server:
-    image: ghcr.io/larsjarred9/pawbby-reborn:1.0.3@sha256:e1feb8e1594125c1b4f427c15fbf308fe00390ee3b10721a555a5d165254ebb9
+    image: ghcr.io/larsjarred9/pawbby-reborn:1.1.0@sha256:fc4d8e0bf25b63607b68efea280492ee36db27ad86ff407850059c980d87282b
     restart: on-failure
     ports:
       # Tuya local discovery poorten openzetten
